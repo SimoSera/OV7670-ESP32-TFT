@@ -1,5 +1,8 @@
-# Non-FIFO OV7670 Video on TFT with ESP32
+#Changes from Original Repository
+CLick [here](https://github.com/alankrantas/OV7670-ESP32-TFT) to see the original repository.
+This is a branch in which I made this porject work with a ST7789 TFT display (instead of the ILI9341) and then I implemented multithreading for better performance and last i changed two pins (13->4 and 14->19) so that now the pins 12 to 15 are free to be used for another spi comunication (maybe a SD card reader)
 
+# Non-FIFO OV7670 Video on TFT with ESP32
 Draw live color video of a non-FIFO OV7670 camera module on a 320x240 ILI9341 TFT display using a generic ESP32 board. The script is based on the example from the [OV7670-ESP32](https://github.com/kobatan/OV7670-ESP32) driver.
 
 > The official [esp32-camera](https://github.com/espressif/esp32-camera) only supports the FIFO version of OV7670s.
