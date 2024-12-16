@@ -50,8 +50,8 @@ const camera_config_t cam_conf = {
 
 // TFT pins
 #define TFT_CS         5
-#define TFT_RST        16 // Or set to -1 and connect to Arduino RESET pin
-#define TFT_DC         17
+#define TFT_RST        17 // Or set to -1 and connect to Arduino RESET pin
+#define TFT_DC         16
 
 
 Adafruit_ST7789 tft = Adafruit_ST7789(TFT_CS, TFT_DC, TFT_RST);
